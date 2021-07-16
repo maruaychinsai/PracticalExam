@@ -1,0 +1,14 @@
+<script>
+    //i let the given be sentence
+    var sentence = 'TheQuickBrownFoxJumpsOverTheLazyDog.';
+//this is the function i used for spacing
+    var space = sentence.replace(/([A-Z])/g , " $1");
+//this is to maintain lower case all the words aside from the first one
+    var output = sentence[0].toUpperCase() + space.slice(1).toLowerCase();
+
+    console.log(output);
+</script>
+
+<body>
+
+</body>
